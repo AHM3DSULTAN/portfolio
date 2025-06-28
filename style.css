@@ -104,25 +104,12 @@
     border-radius: 20px;
    }
 
-   .calc-img-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 30px;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-bottom: 40px;
-    max-width: 90vw;
-    height: auto;
-    border-radius: 30px;
-    background-color: rgb(233, 233, 255);
-   }
+
 
    .py-calc-link {
     font-size: 20px;
     padding: 17px 28px;
     margin-top: 25px;
-    margin-bottom: 25px;
     border-radius: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -130,4 +117,26 @@
     background-color: white;
     border: 1.3px solid blue;
     text-decoration: none;
+   }
+
+   .py-calc-link:hover {
+  background-color: #1e0fc8;
+  transition-duration: 0.7s;
+  color: white;
+}
+
+   .email-btn {
+      padding: 15px 25px;
+      border-radius: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: white;
+      background-color: #0756e0;
+      border: none;
+   }
+
+   .email-btn:hover {
+    background-color: rgb(29, 29, 139);
+    transition-duration: 0.5s;
+    color: white;
    }
