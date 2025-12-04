@@ -4,11 +4,12 @@
     font-size: 34.5px;
     font-family: 'Poppins';
     font-weight:bold;
+    margin: 20px auto;
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: rgb(0, 72, 255);
-    width: 95vw;
-    margin: 20px auto; 
+    width: 98vw;
+    margin: 0px;
     padding: 35px 0; 
     border-radius: 90px;
     box-sizing: border-box; 
@@ -77,12 +78,22 @@
   border-top: 1px solid #ccc;
 }
 
+@media (max-width: 768px) {
 
-   .projects-header-text {
-    font-family: "poppins";
-    font-size: 35px;
+   .footer-note {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #000000;
+  padding: 6px 0;
+  font-size: 15px;
+  font-family: "poppins";
+  color: #ffffff;
+  border-top: 1px solid #ccc;
     
    }
+  }
 
 .python-cal-header {
     font-family: "poppins";
@@ -118,17 +129,17 @@
 }
 
    .email-btn {
-      padding: 15px 25px;
+      padding: 16px 30px;
       border-radius: 40px;
-      font-family: Arial, "poppins";
-      font-size: 20px;
+      font-family: "poppins";
+      font-size: 17px;
       color: white;
-      background-color: #0756e0;
+      background-color: #0847d7;
       border: none;
    }
 
    .email-btn:hover {
-    background-color: rgb(21, 21, 117);
+    background-color: rgb(62, 126, 255);
     transition-duration: 0.5s;
     color: white;
    }
@@ -142,6 +153,7 @@
    .fb-btn {
       padding: 16px 30px;
       border-radius: 40px;
+      margin-top: 20px;
       font-family: "poppins";
       font-size: 17px;
       color: white;
@@ -150,7 +162,7 @@
    }
 
    .fb-btn:hover{
-    background-color: rgb(45, 12, 107);
+    background-color: rgb(31, 4, 82);
     transition-duration: 0.6s;
    }
 
@@ -193,4 +205,3 @@
     color: white;
     border: none;
    }
-
