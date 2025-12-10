@@ -154,6 +154,7 @@
       padding: 16px 30px;
       border-radius: 40px;
       margin-top: 20px;
+      margin-bottom: 35px;
       font-family: "poppins";
       font-size: 17px;
       color: white;
@@ -256,3 +257,42 @@
     .gallery img:hover {
   transform: scale(4); 
 }
+
+.update-container {
+  margin: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 15px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.update-h1 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Poppins';
+  color: blue;
+}
+
+.update-p {
+  font-size: 18px;
+  font-weight: 200;
+  font-family: 'Poppins';
+  color: rgb(80, 80, 80);
+}
+
+   .up-btn {
+      padding: 16px 30px;
+      border-radius: 40px;
+      margin-top: 20px;
+      margin-bottom: 100px;
+      font-family: "poppins";
+      font-size: 17px;
+      color: white;
+      background-color: #0088ff;
+      border: none;
+   }
+
+   .up-btn:hover{
+    background-color: rgb(25, 42, 169);
+    transition-duration: 0.6s;
+   }
