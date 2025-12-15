@@ -8,7 +8,7 @@
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: rgb(75, 28, 242);
-    width: 100vw;
+    width: 99.5vw;
     margin: 0px;
     padding: 35px 0; 
     border-radius: 0px;
@@ -20,14 +20,19 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(65, 65, 65);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.25);
   max-width: 90vw;
   margin: 40px auto;
   gap: 20px;
 }
+
+
 
 .about-left {
   flex: 1;
@@ -39,7 +44,7 @@
 .about-left h2 {
   font-size: 35px;
   margin-bottom: 10px;
-  color: rgb(118, 180, 255);
+  color: rgb(255, 255, 255);
   font-family: "Poppins";
   font-weight: bold;
 }
@@ -48,7 +53,7 @@
   font-size: 20px;
   line-height: 1.6;
     font-family: "Poppins";
-    color: rgb(93, 141, 255);
+    color: rgb(134, 171, 255);
     text-align: justify;
     margin-bottom: 25px;
     margin-top: 25px;
@@ -230,9 +235,9 @@
     .project {
       max-width: 900px;
       margin: 50px auto;
-      background: white;
+      background: rgb(71, 71, 71);
       padding: 25px;
-      border-radius: 12px;
+      border-radius: 20px;
       box-shadow: 0 2px 12px rgba(0,0,0,0.1);
     }
 
