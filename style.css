@@ -54,7 +54,6 @@
   line-height: 1.6;
     font-family: "Poppins";
     color: rgb(134, 171, 255);
-    text-align: justify;
     margin-bottom: 25px;
     margin-top: 25px;
 }
@@ -266,7 +265,7 @@
 
 .update-container {
   margin: 30px;
-  background-color:rgb(65, 65, 65);
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 15px;
   padding: 15px 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -276,7 +275,7 @@
   font-size: 25px;
   font-weight: bold;
   font-family: 'Poppins';
-  color: rgb(85, 122, 255);
+  color: rgb(118, 148, 255);
 }
 
 .update-p {
