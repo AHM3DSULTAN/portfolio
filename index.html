@@ -3,95 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Ahmed's Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/NfyN3ppM/Screenshot-2025-10-12-213357.png">
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            background: rgb(32,32,32) url('https://i.postimg.cc/v8NsB73m/artistic-blurry-colorful-wallpaper-background.jpg') no-repeat center / cover;
+            color: white;
+        }
+
+        .header-banner {
+            font-size: 34.5px;
+            font-weight: bold;
+            text-align: center;
+            background-color: rgb(75, 28, 242);
+            padding: 35px 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .h1 {
+            margin-top: 100px;
+            margin-bottom: 20px;
+            font-size: 35px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        p {
+            margin: 20px;
+            font-size: 22.5px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        /* Center container */
+        .button-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        /* Glass / glossy button */
+        .button {
+            font-size: 18px;
+            font-weight: 500;
+            color: white;
+            padding: 14px 28px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 12px;
+
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+
+            box-shadow: 
+                0 8px 32px rgba(0, 0, 0, 0.25),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+            cursor: default;
+            transition: 0.3s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 255, 255, 0.12);
+        }
+    </style>
 </head>
-<body style="margin:0;min-height:100vh;font-family:'Poppins',sans-serif;background:rgb(32,32,32) url('https://i.postimg.cc/v8NsB73m/artistic-blurry-colorful-wallpaper-background.jpg') no-repeat center / cover;">
+
+<body>
 
     <div class="header-banner">Ahmed's Portfolio</div>
-   <div class="about-box">
-  <div class="about-left">
-    <h2>About Me</h2>
-    <p>
-My name is Ahmed Sultan and I study computing at Loreto College. I really enjoy learning about technology and coding. I like working with HTML, CSS, and Python, and I also enjoy designing app interfaces using Figma. At college I have worked on website projects, databases, and programming tasks which helped me understand how software and hardware work together. Outside of class I make my own small programs and design app screens, which has helped me practice problem solving and paying attention to details. I want to keep learning and building projects that are useful and look good.    </p>
-  </div>
-  <div class="about-right">
-    <img src="https://i.postimg.cc/VvdPqVh0/bob-minion-despicable-me-minion-icon-1320166696111352423.png" alt="About Icon" />
-  </div>
-</div>
- <div class="about-box">
-  <div class="about-left">
-    <h2>My Projects</h2>
-    <p>
-      <strong>Lawn Care Manager (Command-Line-Interface)</strong> <br>
-      Built a command-line calculator in Python with a loop-based interface, calculating lawn care costs based on user inputs for lawn size, service type and even adds the VAT automatically.
-    </p>
-<a href="Lawn care.html" class="py-calc-link"> Lawn care manager</a>
-<p>
-      <strong>Elise Photography (College Project)</strong> <br> [under development for full responsiveness] <br>
-      Designed and developed a photography site for a college project, showcasing clean UI and engaging image galleries.
-    </p>
- <a href="https://ahm3dsultan.github.io/elise/" class="py-calc-link"> Elise Photography</a>
-<p>
-      <strong>Employee Wage Calculator (Command-Line-Interface)</strong> <br>
-      Built a command-line calculator in Python, calculating employee wages based on Teddy bears made during their shifts. Also validating Staff's Name and their Security Number from the data dictionary provided
-    </p>   
-<a href="staff wages.html" class="py-calc-link"> Wages Calculator</a>
-<br>
-<p>
-      <strong>FIGMA UI Designs</strong> <br>
-      Built Figma UI designs for various app interfaces, focusing on user experience and visual aesthetics.
-    </p>
-<a href="figma.html" class="py-calc-link"> Figma UI Designs</a>
-  </div>
-  <div class="about-right">
-    <img style="border-radius: 20px;" src="https://i.postimg.cc/FzvpqBSp/projects-img.avif" alt="About Icon" />
-  </div>
-</div>
- <div class="about-box">
-  <div class="about-left">
-    <h2>Work Experience</h2>
-    <p>
-      <strong>Wellington Convenience Store</strong> <br>Data Base Administrator (1 Month) <br><br>
-      Managed and organized the store's inventory database, ensuring accurate records of stock levels and supplier information. Performed Data Migration by importing all stock data from old cash register system to new one. Assisted in training staff on using the new database system effectively.
-    </p>
-  </div>
-  <div class="about-right">
-    <img src="https://i.postimg.cc/rpL91nfh/work-exp-icon.png" alt="About Icon" />
-  </div>
-</div>
-<div class="about-box">
-  <div class="about-left">
-    <h2>Contact Me</h2>
-    <p>
-      <strong>Email: </strong> <br>portfolio-ahmed@proton.me
-    </p>
-    <a href="mailto:portfolio-ahmed@proton.me?subject=RE: PORTFOLIO WEB QUERY&body=Hi,%20I%20have%20a%20question.">
-    <button class="email-btn">Email me</button>
-  </a>
-  </div>
-  <div class="about-right">
-    <img src="https://i.postimg.cc/rptZFWZ8/a-3d-ui-contact-address-book-icon-png.png" alt="About Icon" />
-  </div>
-</div>
-<div class="form-heading">
-    <h1 style="color: white;">Help me improve</h1>
-    <p style="color: white;">Help me improve this website by providing a feedback.</p>
-    <a href="form.html">
-      <button class="fb-btn">Provide Feedback</button>
-<br>
-    <a href="updatelog.html">
-      <button class="up-btn">View Update log</button>
-    </a>
-<br>
 
-</div>
-<p class="footer-note">Made by Ahmed. [Last Updated: 23/05/2026 at 10:25] </p>
-</div>    
+    <h1 class="h1">🧑‍💻 Maintenance Ongoing...</h1>
+
+    <p>Ahmed is currently busy adding cool stuff to this site, please check back later!</p>
+
+    <div class="button-wrapper">
+        <button class="button">
+            Estimated back in: <b>5 days</b>
+        </button>
+    </div>
+
 </body>
 </html>
-
-
-
